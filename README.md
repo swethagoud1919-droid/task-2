@@ -1,1 +1,50 @@
-# task-2
+Task 2: Data Visualization and Storytelling
+Internship task
+Objective: Create visualizations that communicate a clear story from sales data.
+Project contents
+sales_dataset.csv — sample raw sales dataset (contains a few missing values and duplicate rows for cleaning practice).
+cleaned_sales_dataset.csv — cleaned dataset.
+task2_visualization.py — complete Python program.
+charts/ — four exported visualization images.
+Sales_Visualization_Report.pdf — visual report with key findings.
+Tools
+Python, Pandas, Matplotlib, NumPy (NumPy is only needed to recreate the sample data; the analysis script uses Pandas and Matplotlib).
+Run in Pydroid 3
+Install packages from Pip: pandas, matplotlib, numpy.
+Keep task2_visualization.py and sales_dataset.csv in the same folder.
+Open the Python file in Pydroid 3 and press Run.
+Find the generated cleaned CSV, charts folder, and PDF in the same project folder.
+You can also run on a computer:
+pip install pandas matplotlib numpy
+python task2_visualization.py
+Data cleaning performed
+Removed duplicate rows.
+Converted order dates to datetime.
+Filled missing region values with Unknown.
+Filled missing numeric values with each column's median.
+Removed rows missing essential order/product fields.
+Created a month field for trend analysis.
+Visualizations and why they are used
+Bar chart: compares sales across product categories.
+Pie chart: shows each region's share of total sales.
+Line chart: shows how sales change month by month.
+Horizontal bar chart: ranks the five highest-sales products.
+Key findings from this sample dataset
+Total sales: ₹343,334.20
+Total profit: ₹91,321.01
+Unique orders: 240
+Average sales per order: ₹1,430.56
+Highest-sales category: Technology
+Highest-sales region: South
+Highest-sales product among the top five: Phone
+These findings are based on the included synthetic practice dataset, not on actual company sales.
+Interview questions — short answers
+Why is data visualization important? It makes patterns, comparisons, and trends easier to understand.
+Pie chart vs bar chart? A pie chart shows parts of a whole; a bar chart compares values across categories.
+How can visuals be engaging? Use clear titles, readable labels, suitable charts, limited colors, and highlighted insights.
+What is data storytelling? Combining data, visuals, and explanation to communicate a useful message.
+How do you avoid misleading visuals? Use correct scales, show context, label units, and do not hide relevant data.
+Dashboard best practices? Keep it simple, organize related charts, use consistent colors, and highlight important KPIs.
+Which tools are used? This project uses Python, Pandas, and Matplotlib. Tableau and Power BI are other common tools.
+Conclusion
+The project demonstrates a complete beginner-friendly workflow: load sales data, clean it, analyze performance, create charts, and communicate business insights. task-2
